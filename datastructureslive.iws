@@ -2,14 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc79842-cfdd-4819-97eb-ba28e407edc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/ParallelSortingArrayList.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingObjectLists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingObjects.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingParallelVsSequential.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SortingPrimitives.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructureslive.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/AllCollections.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSVDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSVListFixed.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/CSVListFlexible.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SquareCollection.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SquareCollectionDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructureslive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructureslive.iws" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/outline.ad" beforeDir="false" afterPath="$PROJECT_DIR$/outline.ad" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -64,14 +64,14 @@
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.53061223" />
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
+    <property name="settings.editor.selected.configurable" value="reference.projectsettings.compiler.javacompiler" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SortingParallelVsSequential">
+  <component name="RunManager" selected="Application.SquareCollectionDemo">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -82,24 +82,24 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="RemoveIfTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="RemoveIfTest" />
+    <configuration name="CSVDemo" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="CSVDemo" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingObjectLists" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingObjectLists" />
+    <configuration name="MultiThreadedSets" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="MultiThreadedSets" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingObjects" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingObjects" />
+    <configuration name="PixelDemo" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="PixelDemo" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -114,8 +114,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SortingPrimitives" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="SortingPrimitives" />
+    <configuration name="SquareCollectionDemo" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SquareCollectionDemo" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -161,11 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SquareCollectionDemo" />
+        <item itemvalue="Application.CSVDemo" />
+        <item itemvalue="Application.MultiThreadedSets" />
+        <item itemvalue="Application.PixelDemo" />
         <item itemvalue="Application.SortingParallelVsSequential" />
-        <item itemvalue="Application.SortingObjectLists" />
-        <item itemvalue="Application.SortingObjects" />
-        <item itemvalue="Application.SortingPrimitives" />
-        <item itemvalue="Application.RemoveIfTest" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +182,7 @@
       <workItem from="1550588403784" duration="677000" />
       <workItem from="1550589238712" duration="82000" />
       <workItem from="1551349994126" duration="90000" />
-      <workItem from="1594986940763" duration="8202000" />
+      <workItem from="1594986940763" duration="14637000" />
     </task>
     <task id="LOCAL-00001" summary="performance demos of list iteration and list removing">
       <created>1594993042635</created>
@@ -191,7 +191,14 @@
       <option name="project" value="LOCAL" />
       <updated>1594993042635</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Hashing">
+      <created>1595000485402</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1595000485402</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -199,9 +206,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="performance demos of list iteration and list removing" />
-    <option name="LAST_COMMIT_MESSAGE" value="performance demos of list iteration and list removing" />
+    <MESSAGE value="Hashing" />
+    <option name="LAST_COMMIT_MESSAGE" value="Hashing" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1260" y="170" key="#CSVDemo" timestamp="1595001733371">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#CSVDemo/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001733371" />
     <state x="-1220" y="226" key="#Complexities" timestamp="1594988742119">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -214,6 +226,14 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1260" y="170" key="#Lists/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992506418" />
+    <state x="-1260" y="170" key="#MultiThreadedSets" timestamp="1594999181239">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#MultiThreadedSets/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999181239" />
+    <state x="-1260" y="170" key="#PixelDemo" timestamp="1594998553151">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#PixelDemo/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594998553151" />
     <state x="-1262" y="128" key="#Project_Structure" timestamp="1594986964212">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -234,10 +254,14 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1260" y="170" key="#SortingObjects/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994867042" />
-    <state x="-1260" y="170" key="#SortingParallelVsSequential" timestamp="1594995222394">
+    <state x="-1260" y="170" key="#SortingParallelVsSequential" timestamp="1594997354874">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1260" y="170" key="#SortingParallelVsSequential/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995222394" />
+    <state x="-1260" y="170" key="#SortingParallelVsSequential/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594997354874" />
+    <state x="-1260" y="170" key="#SquareCollectionDemo" timestamp="1595001944465">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#SquareCollectionDemo/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001944465" />
     <state x="-1260" y="170" key="#Welcome" timestamp="1594987197820">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -246,53 +270,61 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994655053" />
-    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1594994631962">
+    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1595001785089">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994631962" />
-    <state x="-1520" y="123" key="CommitChangelistDialog2" timestamp="1594993042498">
+    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001785089" />
+    <state x="-1520" y="123" key="CommitChangelistDialog2" timestamp="1595000485171">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1520" y="123" key="CommitChangelistDialog2/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594993042498" />
-    <state width="1878" height="420" key="GridCell.Tab.0.bottom" timestamp="1594995223748">
+    <state x="-1520" y="123" key="CommitChangelistDialog2/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595000485171" />
+    <state width="1878" height="600" key="GridCell.Tab.0.bottom" timestamp="1595001948149">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="420" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223748" />
-    <state width="1878" height="420" key="GridCell.Tab.0.center" timestamp="1594995223746">
+    <state width="1878" height="600" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001948149" />
+    <state width="1878" height="600" key="GridCell.Tab.0.center" timestamp="1595001948146">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="420" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223746" />
-    <state width="1878" height="420" key="GridCell.Tab.0.left" timestamp="1594995223745">
+    <state width="1878" height="600" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001948146" />
+    <state width="1878" height="600" key="GridCell.Tab.0.left" timestamp="1595001948145">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="420" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223745" />
-    <state width="1878" height="420" key="GridCell.Tab.0.right" timestamp="1594995223747">
+    <state width="1878" height="600" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001948145" />
+    <state width="1878" height="600" key="GridCell.Tab.0.right" timestamp="1595001948148">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="420" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223747" />
-    <state width="1878" height="509" key="GridCell.Tab.1.bottom" timestamp="1594989109496">
+    <state width="1878" height="600" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001948148" />
+    <state width="1878" height="420" key="GridCell.Tab.1.bottom" timestamp="1594999002891">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.1.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109496" />
-    <state width="1878" height="509" key="GridCell.Tab.1.center" timestamp="1594989109495">
+    <state width="1878" height="420" key="GridCell.Tab.1.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999002891" />
+    <state width="1878" height="420" key="GridCell.Tab.1.center" timestamp="1594999002889">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.1.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109495" />
-    <state width="1878" height="509" key="GridCell.Tab.1.left" timestamp="1594989109494">
+    <state width="1878" height="420" key="GridCell.Tab.1.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999002889" />
+    <state width="1878" height="420" key="GridCell.Tab.1.left" timestamp="1594999002888">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.1.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109494" />
-    <state width="1878" height="509" key="GridCell.Tab.1.right" timestamp="1594989109496">
+    <state width="1878" height="420" key="GridCell.Tab.1.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999002888" />
+    <state width="1878" height="420" key="GridCell.Tab.1.right" timestamp="1594999002890">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.1.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109496" />
-    <state x="-1122" y="145" key="SettingsEditor" timestamp="1594992166191">
+    <state width="1878" height="420" key="GridCell.Tab.1.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999002890" />
+    <state x="-1122" y="145" key="SettingsEditor" timestamp="1594999372193">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1122" y="145" key="SettingsEditor/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992166191" />
-    <state x="-1222" y="293" key="extract.method.dialog" timestamp="1594993233810">
+    <state x="-1122" y="145" key="SettingsEditor/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594999372193" />
+    <state x="-1232" y="157" width="1720" height="857" key="dock-window-1" timestamp="1595001476890">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1222" y="293" key="extract.method.dialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594993233810" />
+    <state x="-1232" y="157" width="1720" height="857" key="dock-window-1/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1595001476890" />
+    <state x="-1222" y="293" key="extract.method.dialog" timestamp="1594997627208">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1222" y="293" key="extract.method.dialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594997627208" />
+    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup" timestamp="1594997729518">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1295" y="258" width="670" height="676" key="search.everywhere.popup/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594997729518" />
   </component>
 </project>
