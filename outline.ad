@@ -1,0 +1,198 @@
+= Schedule
+Heinz Kabutz <heinz@javaspecialists.eu>
+
+The timeframes are only estimates and may vary according to how the class is progressing
+
+== 0 - Welcome
+^(5m^ ^@07h00-07h05^ ^5m)^
+
+* Everything is in the recording
+  ** Heinz and his IDE
+* Quizzes
+  ** Answer in chat
+* Questions
+
+== 1 - Introduction to Collections in Java
+^(10m^ ^@07h05-07h15^ ^15m)^
+
+* Computational Time and Space Complexity
+  ** O(1), O(n), O(n^2^), O(log n), O(n * log n)
+* Arrays
+  ** Primitive vs object arrays
+  ** Memory usage and layout
+  ** Multi-dimensional arrays
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@07h15-07h20^ ^20m)^
+
+<<<
+
+== 2 - Lists
+^(30m^ ^@07h20-07h50^ ^50m)^
+
+* Lists
+  ** Arrays.asList()
+  ** Quick look at the List methods
+  ** Optional methods
+    *** asList() vs List.of()
+  ** RandomAccess
+* ArrayList
+  ** Adding four seasons
+  ** indexOf() and contains()
+  ** size() vs elementData.length in debugger
+  ** removeIf()
+* Iteration
+  ** Enumeration bugs
+  ** Fail fast collection
+  ** forEach()
+* CopyOnWriteArrayList
+  ** Safe iteration
+* LinkedList
+  ** Node memory usage
+  ** Accessing middle of list
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@07h50-07h55^ ^55m)^
+
+== 7 Minute Break
+^(7m^ ^@07h55-08h02)^
+
+<<<
+
+== 3 - Sorting
+^(25m^ ^@08h02-08h27^ ^25m)^
+
+* Sorting lists
+  ** Sorting list of Strings
+  ** Sorting custom classes like Student
+    *** Comparing ints and longs
+  ** Writing Comparators as anonymous classes
+  ** Comparators with extractor functions
+    *** Type witnesses
+    *** Declared lambda parameters
+    *** Method references
+  ** Sorting performance ArrayList vs LinkedList
+    *** Parallel sorting of ArrayList
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@08h27-08h32^ ^30m)^
+
+<<<
+
+== 4 - Sets
+^(15m^ ^@08h32-08h47^ ^45m)^
+
+* Sets
+  ** Set.of()
+  ** union with addAll()
+  ** intersection with retainAll() or stream/filter
+* TreeSet
+  ** Sorted by natural order
+  ** Red-black tree
+    *** Unbalanced tree O(n) vs O(log n)
+    *** Counting maximum tree depth
+* ConcurrentSkipListSet
+  ** Thread-safe sorted set
+* CopyOnWriteArraySet
+  ** For very small sets
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@08h47-08h52^ ^50m)^
+
+== 7 Minute Break
+^(7m^ ^@08h52-08h59)^
+
+<<<
+
+== 5 - Hashing
+^(15m^ ^@08h59-09h14^ ^15m)^
+
+* Hashing
+  ** Writing very basic hashtable
+  ** Clashes and distribution
+  ** % vs &
+* HashSet
+  ** hashCode() vs identityHashCode()
+  ** Pixel and good hash code
+  ** Bucket collisions
+  ** Making keys implement Comparable
+* ConcurrentHashMap.newKeySet()
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@09h14-09h19^ ^20m)^
+
+== 6 - Maps Part 1
+^(30m^ ^@09h19-09h49^ ^50m)^
+
+* Maps
+  ** one-to-one dictionary
+* HashMap
+  ** History of hashing 1.2, 1.4, 1.8+
+  ** Building a hash code with bit shifting Person(name,day,month,year)
+  ** Cached hash code in Strings
+  ** https://www.javaspecialists.eu/archive/Issue235.html[MapClashInspector]
+  ** Creating maps of numbers
+    *** computeIfAbsent() for List of values
+
+== 7 Minute Break
+^(7m^ ^@09h49-09h56)^
+
+<<<
+
+== 6 - Maps Part 2
+^(15m^ ^@09h56-10h11^ ^15m)^
+
+* ConcurrentHashMap
+  ** Always use
+  ** Compound operations review
+* TreeMap
+  ** hashCode(), equals() and compareTo()
+  ** Own Comparator
+* ConcurrentSkipListMap
+  ** Parallel put into TreeMap vs ConcurrentSkipListMap
+* LinkedHashMap and LinkedHashSet
+* Highly Specialized Collections: EnumSet, EnumMap, IdentityHashMap, Properties, WeakHashMap
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@10h11-10h16^ ^20m)^
+
+<<<
+
+
+== 7 - Queues and Deques
+^(10m^ ^@10h16-10h26^ ^30m)^
+
+* Queues and Deques
+  ** Not always FIFO
+* ConcurrentLinkedQueue and ConcurrentLinkedDeque
+  ** General purpose MPMC queues
+  ** size() is O(n)
+* ArrayDeque
+  ** Grows, does not shrink
+* BlockingQueues
+* LinkedBlockingQueue and LinkedBlockingDeque
+  ** Lock splitting
+* ArrayBlockingQueue
+  ** Compact array structure
+* Highly specialized queues: DelayQueue, SynchronousQueue, LinkedTransferQueue, PriorityQueue and PriorityBlockingQueue
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@10h26-10h31^ ^50m)^
+
+== 4 Minute Break
+^(4m^ ^@10h31-10h35)^
+
+== 8 - Collection Facades
+^(10m^ ^@10h35-10h45^ ^10m)^
+
+* java.util.Collections
+* java.util.Arrays
+
+=== file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
+^(5m^ ^@10h45-10h50^ ^15m)^
+
+== 9 - Wrap-up
+^(10m^ ^@10h50-11h00^ ^25m)^
+
+Further questions
+
