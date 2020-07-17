@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc79842-cfdd-4819-97eb-ba28e407edc8" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructureslive.iml" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/datastructureslive.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.ipr" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Complexities.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructureslive.iws" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iws" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +20,13 @@
         </counts>
       </usages-collector>
     </session>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -44,16 +49,18 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="extract.method.default.visibility" value="private" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.53061223" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.Complexities">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -63,6 +70,14 @@
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
+    </configuration>
+    <configuration name="Complexities" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Complexities" />
+      <module name="datastructureslive" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
     </configuration>
     <configuration name="Welcome" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Welcome" />
@@ -111,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Complexities" />
         <item itemvalue="Application.Welcome" />
       </list>
     </recent_temporary>
@@ -128,7 +144,7 @@
       <workItem from="1550588403784" duration="677000" />
       <workItem from="1550589238712" duration="82000" />
       <workItem from="1551349994126" duration="90000" />
-      <workItem from="1594986940763" duration="107000" />
+      <workItem from="1594986940763" duration="1362000" />
     </task>
     <servers />
   </component>
@@ -136,13 +152,41 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="-1260" y="170" key="#Complexities" timestamp="1594988342692">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#Complexities/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988342692" />
     <state x="-1262" y="128" key="#Project_Structure" timestamp="1594986964212">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1262" y="128" key="#Project_Structure/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594986964212" />
+    <state x="-1260" y="170" key="#Welcome" timestamp="1594987197820">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#Welcome/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594987197820" />
+    <state width="1878" height="509" key="GridCell.Tab.0.bottom" timestamp="1594988350826">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350826" />
+    <state width="1878" height="509" key="GridCell.Tab.0.center" timestamp="1594988350824">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350824" />
+    <state width="1878" height="509" key="GridCell.Tab.0.left" timestamp="1594988350822">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350822" />
+    <state width="1878" height="509" key="GridCell.Tab.0.right" timestamp="1594988350825">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350825" />
     <state x="-1122" y="145" key="SettingsEditor" timestamp="1594987048387">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1122" y="145" key="SettingsEditor/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594987048387" />
+    <state x="-1222" y="293" key="extract.method.dialog" timestamp="1594988203739">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1222" y="293" key="extract.method.dialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988203739" />
   </component>
 </project>
