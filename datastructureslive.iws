@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc79842-cfdd-4819-97eb-ba28e407edc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Complexities.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Lists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RemoveIfTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructureslive.iws" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iws" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Complexities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Complexities.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +62,7 @@
     <property name="project.structure.side.proportion" value="0.53061223" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.Complexities">
+  <component name="RunManager" selected="Application.RemoveIfTest">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,6 +75,22 @@
     </configuration>
     <configuration name="Complexities" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Complexities" />
+      <module name="datastructureslive" />
+      <option name="VM_PARAMETERS" value="-Djava.lang.Integer.IntegerCache.high=10000" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Lists" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Lists" />
+      <module name="datastructureslive" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RemoveIfTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="RemoveIfTest" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -126,6 +144,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RemoveIfTest" />
+        <item itemvalue="Application.Lists" />
         <item itemvalue="Application.Complexities" />
         <item itemvalue="Application.Welcome" />
       </list>
@@ -144,7 +164,7 @@
       <workItem from="1550588403784" duration="677000" />
       <workItem from="1550589238712" duration="82000" />
       <workItem from="1551349994126" duration="90000" />
-      <workItem from="1594986940763" duration="1362000" />
+      <workItem from="1594986940763" duration="3356000" />
     </task>
     <servers />
   </component>
@@ -152,34 +172,58 @@
     <option name="version" value="2" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="-1260" y="170" key="#Complexities" timestamp="1594988342692">
+    <state x="-1220" y="226" key="#Complexities" timestamp="1594988742119">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1260" y="170" key="#Complexities/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988342692" />
+    <state x="-1220" y="226" key="#Complexities/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988742119" />
+    <state x="-1260" y="170" key="#Lists" timestamp="1594989326862">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#Lists/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989326862" />
     <state x="-1262" y="128" key="#Project_Structure" timestamp="1594986964212">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1262" y="128" key="#Project_Structure/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594986964212" />
+    <state x="-1260" y="170" key="#RemoveIfTest" timestamp="1594990407441">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#RemoveIfTest/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990407441" />
     <state x="-1260" y="170" key="#Welcome" timestamp="1594987197820">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1260" y="170" key="#Welcome/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594987197820" />
-    <state width="1878" height="509" key="GridCell.Tab.0.bottom" timestamp="1594988350826">
+    <state width="1878" height="421" key="GridCell.Tab.0.bottom" timestamp="1594990354127">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350826" />
-    <state width="1878" height="509" key="GridCell.Tab.0.center" timestamp="1594988350824">
+    <state width="1878" height="421" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354127" />
+    <state width="1878" height="421" key="GridCell.Tab.0.center" timestamp="1594990354126">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350824" />
-    <state width="1878" height="509" key="GridCell.Tab.0.left" timestamp="1594988350822">
+    <state width="1878" height="421" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354126" />
+    <state width="1878" height="421" key="GridCell.Tab.0.left" timestamp="1594990354125">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350822" />
-    <state width="1878" height="509" key="GridCell.Tab.0.right" timestamp="1594988350825">
+    <state width="1878" height="421" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354125" />
+    <state width="1878" height="421" key="GridCell.Tab.0.right" timestamp="1594990354126">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="509" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988350825" />
+    <state width="1878" height="421" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354126" />
+    <state width="1878" height="509" key="GridCell.Tab.1.bottom" timestamp="1594989109496">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.1.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109496" />
+    <state width="1878" height="509" key="GridCell.Tab.1.center" timestamp="1594989109495">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.1.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109495" />
+    <state width="1878" height="509" key="GridCell.Tab.1.left" timestamp="1594989109494">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.1.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109494" />
+    <state width="1878" height="509" key="GridCell.Tab.1.right" timestamp="1594989109496">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="509" key="GridCell.Tab.1.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109496" />
     <state x="-1122" y="145" key="SettingsEditor" timestamp="1594987048387">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>

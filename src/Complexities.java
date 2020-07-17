@@ -37,10 +37,10 @@ public class Complexities {
             }
             return result;
         });
-        testAllocate("ArrayList<Int> 1000 ", () -> {
+        testAllocate("LinkedList<Int> 1000 ", () -> {
             List<Integer> result = new LinkedList<>();
             for (int i = 0; i < 10_000_000; i++) {
-                result.add(1000);
+                result.add(Integer.valueOf(1000));
             }
             return result;
         });
