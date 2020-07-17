@@ -2,10 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bcc79842-cfdd-4819-97eb-ba28e407edc8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/Lists.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/RemoveIfTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ParallelSortingArrayList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingObjectLists.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingObjects.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingParallelVsSequential.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/SortingPrimitives.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/datastructureslive.ipr" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.ipr" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/datastructureslive.iws" beforeDir="false" afterPath="$PROJECT_DIR$/datastructureslive.iws" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Complexities.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Complexities.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/outline.ad" beforeDir="false" afterPath="$PROJECT_DIR$/outline.ad" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -62,7 +66,12 @@
     <property name="project.structure.side.proportion" value="0.53061223" />
     <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors" />
   </component>
-  <component name="RunManager" selected="Application.RemoveIfTest">
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.SortingParallelVsSequential">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <method v="2">
@@ -73,22 +82,6 @@
       <Host>localhost</Host>
       <Port>5050</Port>
     </configuration>
-    <configuration name="Complexities" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Complexities" />
-      <module name="datastructureslive" />
-      <option name="VM_PARAMETERS" value="-Djava.lang.Integer.IntegerCache.high=10000" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Lists" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Lists" />
-      <module name="datastructureslive" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="RemoveIfTest" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="RemoveIfTest" />
       <module name="datastructureslive" />
@@ -97,8 +90,32 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Welcome" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Welcome" />
+    <configuration name="SortingObjectLists" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingObjectLists" />
+      <module name="datastructureslive" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingObjects" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingObjects" />
+      <module name="datastructureslive" />
+      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingParallelVsSequential" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingParallelVsSequential" />
+      <module name="datastructureslive" />
+      <option name="VM_PARAMETERS" value="-verbose:gc" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SortingPrimitives" type="Application" factoryName="Application" editBeforeRun="true" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="SortingPrimitives" />
       <module name="datastructureslive" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <method v="2">
@@ -144,10 +161,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SortingParallelVsSequential" />
+        <item itemvalue="Application.SortingObjectLists" />
+        <item itemvalue="Application.SortingObjects" />
+        <item itemvalue="Application.SortingPrimitives" />
         <item itemvalue="Application.RemoveIfTest" />
-        <item itemvalue="Application.Lists" />
-        <item itemvalue="Application.Complexities" />
-        <item itemvalue="Application.Welcome" />
       </list>
     </recent_temporary>
   </component>
@@ -164,50 +182,94 @@
       <workItem from="1550588403784" duration="677000" />
       <workItem from="1550589238712" duration="82000" />
       <workItem from="1551349994126" duration="90000" />
-      <workItem from="1594986940763" duration="3356000" />
+      <workItem from="1594986940763" duration="8202000" />
     </task>
+    <task id="LOCAL-00001" summary="performance demos of list iteration and list removing">
+      <created>1594993042635</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1594993042635</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="2" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="performance demos of list iteration and list removing" />
+    <option name="LAST_COMMIT_MESSAGE" value="performance demos of list iteration and list removing" />
   </component>
   <component name="WindowStateProjectService">
     <state x="-1220" y="226" key="#Complexities" timestamp="1594988742119">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1220" y="226" key="#Complexities/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988742119" />
-    <state x="-1260" y="170" key="#Lists" timestamp="1594989326862">
+    <state x="-1260" y="170" key="#ListIterationRace" timestamp="1594992123840">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1260" y="170" key="#Lists/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989326862" />
+    <state x="-1260" y="170" key="#ListIterationRace/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992123840" />
+    <state x="-1260" y="170" key="#Lists" timestamp="1594992506418">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#Lists/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992506418" />
     <state x="-1262" y="128" key="#Project_Structure" timestamp="1594986964212">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1262" y="128" key="#Project_Structure/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594986964212" />
-    <state x="-1260" y="170" key="#RemoveIfTest" timestamp="1594990407441">
+    <state x="-1260" y="170" key="#RemoveIfTest" timestamp="1594992958392">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1260" y="170" key="#RemoveIfTest/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990407441" />
+    <state x="-1260" y="170" key="#RemoveIfTest/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992958392" />
+    <state x="-1260" y="170" key="#Sorting" timestamp="1594994027566">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#Sorting/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994027566" />
+    <state x="-1260" y="170" key="#SortingObjectLists" timestamp="1594994869443">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#SortingObjectLists/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994869443" />
+    <state x="-1260" y="170" key="#SortingObjects" timestamp="1594994867042">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#SortingObjects/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994867042" />
+    <state x="-1260" y="170" key="#SortingParallelVsSequential" timestamp="1594995222394">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state x="-1260" y="170" key="#SortingParallelVsSequential/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995222394" />
     <state x="-1260" y="170" key="#Welcome" timestamp="1594987197820">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state x="-1260" y="170" key="#Welcome/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594987197820" />
-    <state width="1878" height="421" key="GridCell.Tab.0.bottom" timestamp="1594990354127">
+    <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1594994655053">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="421" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354127" />
-    <state width="1878" height="421" key="GridCell.Tab.0.center" timestamp="1594990354126">
+    <state x="-1222" y="324" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994655053" />
+    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser" timestamp="1594994631962">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="421" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354126" />
-    <state width="1878" height="421" key="GridCell.Tab.0.left" timestamp="1594990354125">
+    <state x="-1147" y="274" key="#com.intellij.ide.util.MemberChooser/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594994631962" />
+    <state x="-1520" y="123" key="CommitChangelistDialog2" timestamp="1594993042498">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="421" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354125" />
-    <state width="1878" height="421" key="GridCell.Tab.0.right" timestamp="1594990354126">
+    <state x="-1520" y="123" key="CommitChangelistDialog2/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594993042498" />
+    <state width="1878" height="420" key="GridCell.Tab.0.bottom" timestamp="1594995223748">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state width="1878" height="421" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594990354126" />
+    <state width="1878" height="420" key="GridCell.Tab.0.bottom/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223748" />
+    <state width="1878" height="420" key="GridCell.Tab.0.center" timestamp="1594995223746">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.center/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223746" />
+    <state width="1878" height="420" key="GridCell.Tab.0.left" timestamp="1594995223745">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.left/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223745" />
+    <state width="1878" height="420" key="GridCell.Tab.0.right" timestamp="1594995223747">
+      <screen x="-1920" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1878" height="420" key="GridCell.Tab.0.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594995223747" />
     <state width="1878" height="509" key="GridCell.Tab.1.bottom" timestamp="1594989109496">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
@@ -224,13 +286,13 @@
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
     <state width="1878" height="509" key="GridCell.Tab.1.right/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594989109496" />
-    <state x="-1122" y="145" key="SettingsEditor" timestamp="1594987048387">
+    <state x="-1122" y="145" key="SettingsEditor" timestamp="1594992166191">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1122" y="145" key="SettingsEditor/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594987048387" />
-    <state x="-1222" y="293" key="extract.method.dialog" timestamp="1594988203739">
+    <state x="-1122" y="145" key="SettingsEditor/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594992166191" />
+    <state x="-1222" y="293" key="extract.method.dialog" timestamp="1594993233810">
       <screen x="-1920" y="23" width="1920" height="1057" />
     </state>
-    <state x="-1222" y="293" key="extract.method.dialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594988203739" />
+    <state x="-1222" y="293" key="extract.method.dialog/-3840.23.1920.1057/-1920.23.1920.1057/0.23.1440.877@-1920.23.1920.1057" timestamp="1594993233810" />
   </component>
 </project>

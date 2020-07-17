@@ -59,19 +59,19 @@ The timeframes are only estimates and may vary according to how the class is pro
 
 <<<
 
-== 3 - Sorting
+== 3 - SortingPrimitives
 ^(25m^ ^@08h02-08h27^ ^25m)^
 
-* Sorting lists
-  ** Sorting list of Strings
-  ** Sorting custom classes like Student
+* SortingPrimitives lists
+  ** SortingPrimitives list of Strings
+  ** SortingPrimitives custom classes like Student
     *** Comparing ints and longs
   ** Writing Comparators as anonymous classes
   ** Comparators with extractor functions
     *** Type witnesses
     *** Declared lambda parameters
     *** Method references
-  ** Sorting performance ArrayList vs LinkedList
+  ** SortingPrimitives performance ArrayList vs LinkedList
     *** Parallel sorting of ArrayList
 
 === file:///Users/heinz/Dropbox/heinz/courses/datastructures/quiz/html/questions.html[Quiz]
