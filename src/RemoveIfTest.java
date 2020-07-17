@@ -1,5 +1,7 @@
 import java.util.*;
 import java.util.concurrent.CopyOnWriteArrayList;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 public class RemoveIfTest {
     public static void main(String... args) {
@@ -73,7 +75,57 @@ public class RemoveIfTest {
         }
 
         {
-
+            System.out.println("Removing from ArrayList with Iterator");
+            List<Integer> numbers = new ArrayList<>();
+            for (int i = 0; i < 400_000; i++) {
+                numbers.add(i);
+            }
+            long time = System.nanoTime();
+            try {
+                for (Iterator<Integer> it = numbers.iterator(); it.hasNext(); ) {
+                    Integer next = it.next();
+                    if (next % 2 == 0) it.remove();
+                }
+                System.out.println("numbers.size() = " + numbers.size());
+            } finally {
+                time = System.nanoTime() - time;
+                System.out.printf("time = %dms%n", (time / 1_000_000));
+            }
         }
+        {
+            System.out.println("Removing from LinkedList with Iterator");
+            List<Integer> numbers = new LinkedList<>();
+            for (int i = 0; i < 400_000; i++) {
+                numbers.add(i);
+            }
+            long time = System.nanoTime();
+            try {
+                for (Iterator<Integer> it = numbers.iterator(); it.hasNext(); ) {
+                    Integer next = it.next();
+                    if (next % 2 == 0) it.remove();
+                }
+                System.out.println("numbers.size() = " + numbers.size());
+            } finally {
+                time = System.nanoTime() - time;
+                System.out.printf("time = %dms%n", (time / 1_000_000));
+            }
+        }
+
+        {
+            System.out.println("Removing from ArrayList with removeIf");
+            List<Integer> numbers = new ArrayList<>();
+            for (int i = 0; i < 400_000; i++) {
+                numbers.add(i);
+            }
+            long time = System.nanoTime();
+            try {
+                numbers.removeIf(number -> number % 2 == 0);
+                System.out.println("numbers.size() = " + numbers.size());
+            } finally {
+                time = System.nanoTime() - time;
+                System.out.printf("time = %dms%n", (time / 1_000_000));
+            }
+        }
+
     }
 }

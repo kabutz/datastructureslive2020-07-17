@@ -1,4 +1,5 @@
 import java.util.Arrays;
+import java.util.Collections;
 import java.util.List;
 import java.util.RandomAccess;
 
@@ -25,5 +26,11 @@ public class Lists {
 
         // Not RandomAccess:
         // LinkedList
+
+        List<String> names3 = List.copyOf(names);
+        System.out.println("names3 = " + names3);
+        strings[1] = "Bernie";
+        System.out.println("names3 = " + names3);
+
     }
 }

@@ -7,7 +7,7 @@ import java.util.function.Supplier;
 public class Complexities {
     public static void main(String... args) {
         // O(1) // constant // ArrayList.get(n)
-        // O(n) // linear // LinkedList.get(n)
+        // O(n) // linear // LinkedList.get(n) // ArrayList.remove(0)
         // O(log n) // logarithmic // TreeSet.add()
         // O(n * log n) // quasilinear // Merge Sort
 
